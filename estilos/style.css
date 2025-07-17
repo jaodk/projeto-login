@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+/*Paleta de Cores
+Azul Claro #69ADF1
+Verde Escuro #1A4800
+Azul Escuro #263E72
+Verde #148717
+Verde Claro #9CEA4F
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagens/pexels-ian-panelo-3571551\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main {
+
+}
+main > h1 {
+
+}
+section {
+    
+}
