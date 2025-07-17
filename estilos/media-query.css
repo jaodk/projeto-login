@@ -12,6 +12,7 @@ Extra grande 1280px	Laptops maiores, desktops médios
     body {
         background:black url(../imagens/john-rodenn-castillo-eluzJSfkNCk-unsplash.jpg);
         background-position: center,center;
+        background-attachment: fixed;
     }
     section#login {
         width: 80vw;
@@ -38,6 +39,7 @@ Extra grande 1280px	Laptops maiores, desktops médios
     body {
         background:url(../imagens/john-rodenn-castillo-eluzJSfkNCk-unsplash.jpg);
         background-position: center center;
+        background-attachment: fixed;
         
     }
     section#login {
