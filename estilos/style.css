@@ -15,7 +15,10 @@ Verde Claro #9CEA4F
     box-sizing: border-box;
 }
 body, html {
-    background:linear-gradient(#9CEA4F,#69ADF1, #263E72);
+    background-image: url(../imagens/john-rodenn-castillo-eluzJSfkNCk-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top, center;
     height: 100vh;
     width: 100vw;
 }
@@ -28,7 +31,6 @@ section#login {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%);
     background-color: white;
     width: 300px;
     height: 500px;
@@ -37,14 +39,15 @@ section#login {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.671);
     transition: width 1s, height 1s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 
 }
 section#login >div#imagem {
     display: block;
-    background: #1A4800 url(../imagens/pexels-ian-panelo-3571551\ \(1\).jpg);
+    background: #1A4800 url(../imagens/pexels-lieke-69039370-8336010.jpg);
     background-repeat: no-repeat;
+    background-position:center, center;
     background-size: cover;
-    background-attachment: fixed;
     height: 150px;
 }
 section#login > div#formulario {
@@ -62,35 +65,66 @@ div#formulario > p {
     text-align: center;
     margin-bottom: 20px;
 }
-
+div.campo > input {
+    background-color: #b8dbff;
+    font-size: 1em;
+    width: 100%;
+    height: 100%;
+    border: 0%;
+    border-radius: 4px;
+    padding: 3px;
+    transform: translateX(5px);
+}
+div.campo > input:focus-within {
+    background-color: white;
+}
 form > div.campo {
     background-color: #69ADF1;
-    display:block;
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 50px;
     border-radius: 5px;
-    margin: 5px 0px;
+    margin: 3px 0px;
+    color: white;
+    gap: 5px;
+    padding: 1px;
+    
 }
 #ilogin, #isenha {
     padding: 3px;
     border:2px solid black;
 }
 .icons {
-    color: #000000;
-    margin-top: 10px;
+    color: #ffffff; /* Azul escuro da paleta */
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4em;
+    margin-left: 4px;
+    margin-right: 4px;
+    
 }
+
+form > div.campo:focus-within .icons {
+    background: #263E72;
+    color: #fff;
+}
+
 .enviar {
     font-weight: bolder;
     padding: 10px 10px;
     width: 200px;
     margin: 20px auto 0 auto;
     display: block;
-    background-color: #166916;
-    color: #ffffff;
+    background-color: #00aeff;
+    color: #000000;
     border-radius: 3px;
 }
 .enviar:hover {
-    background-color: #40af00;
+    background-color: #002488;
     color: #ffffff;
 }
 form {
@@ -108,6 +142,6 @@ form {
    
 }
 .esqueci:hover {
-    color: #112653;
-    background-color: #9ecbf8;
+    color: #ffffff;
+    background-color: #007ac0;
 }

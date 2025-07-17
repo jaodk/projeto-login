@@ -10,7 +10,8 @@ Extra grande 1280px	Laptops maiores, desktops médios
 @media  screen and (min-width: 768px) and (max-width:1024px) {
 
     body {
-        background:linear-gradient(#9CEA4F,#69ADF1, #263E72);
+        background:black url(../imagens/john-rodenn-castillo-eluzJSfkNCk-unsplash.jpg);
+        background-position: center,center;
     }
     section#login {
         width: 80vw;
@@ -35,7 +36,9 @@ Extra grande 1280px	Laptops maiores, desktops médios
 
 @media  screen and (min-width: 1024px) {
     body {
-        background:linear-gradient(#9CEA4F,#69ADF1, #263E72);
+        background:url(../imagens/john-rodenn-castillo-eluzJSfkNCk-unsplash.jpg);
+        background-position: center center;
+        
     }
     section#login {
         width: 70%;
